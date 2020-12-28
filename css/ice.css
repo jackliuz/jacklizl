@@ -1,0 +1,145 @@
+/*@ 首页样式表*/
+/*====================公共样式======================*/
+
+/*面芯样式表start*/
+main .m-banner{
+	width:980px;
+	height:300px;
+	margin:0 auto;
+	
+	/*border:1px solid black;*/
+}
+main .m-banner li img{
+	margin: 30px 0 0 0;
+	
+}
+main .title{
+	width:950px;
+	height:235px;
+	/*border:1px solid black;*/
+	border-bottom:1px solid #c17424 ;
+	margin: 15px auto;
+}
+main .title .guide{
+	width:168px;
+	margin:100px 0 0 65px ;
+	border-radius:5%;
+	border:1px solid #d4ba8c;
+	background:#dac197;
+}
+main .title .guide li {
+	padding:0 0 10px 0;
+	font-size:16px;
+
+}
+main .title .guide li a{
+	color:#db6800;
+	text-shadow:none;
+
+}
+main .title .guide li a:hover{
+	color:white;
+}
+main .title .actial {
+	width:700px;
+	float:right;
+	margin:-210px 0 0 0;
+	/*border:1px solid black;*/
+}
+main .title .actial h2{
+	font-size:36px;
+	color:#233a6e;
+}
+main .title .actial p{
+	font-size:16px;
+	line-height:35px;
+	padding: 10px 0 0 0;
+}
+
+main .card{
+	width:950px;
+	height:360px;
+	position:relative;
+	/*border:1px solid black;*/
+	margin:45px auto ;
+}
+main .card-2{
+	width:950px;
+	height:240px;
+	position:relative;
+	/*border:1px solid black;*/
+	margin:45px auto ;
+}
+main .card-3{
+	width:950px;
+	height:400px;
+	position:relative;
+	/*border:1px solid black;*/
+	margin:45px auto ;
+}
+main .card-4{
+	width:950px;
+	height:400px;
+	position:relative;
+	/*border:1px solid black;*/
+	margin:45px auto ;
+}
+main h4{
+	width:900px;
+	height:50px;
+	margin: 0 auto 0 ;
+	line-height:50px;
+	text-indent:45px;
+	font-size:16px;
+	background:#dac197;
+	/*border:1px solid black;*/
+}
+main   span{
+	position:absolute;
+	left:3px;
+	top:-12px;
+	width:63px;
+	height:68px;
+	/*background: no-repeat url(../images/zw.png);*/
+	/*border:1px solid black;*/
+}
+main .card li{
+	float:left;
+	width:47%;
+	font-size:16px;
+	text-align:center;
+	padding:20px 0 10px 2px;
+	margin: 0 0 0 10px;
+}
+main .card-2 li{
+	float:left;
+	width:30%;
+	padding:20px 70px 0px 100px;
+}
+main .card-2 p{
+	display:inline-block;
+	text-align:right;
+	font-size:14px;
+	line-height:30px;
+	width:55%;
+	margin:20px 0 0 0;
+}
+main .card-2 li img{
+	float:left;
+	width:30%;
+}
+main .card-3 li img{
+	float:left;
+	padding:50px 135px 0 125px; 
+}
+main .card-4 li img{
+	float:right;
+	padding:50px 140px 0 5px; 
+}
+
+main .card-5 li img{
+	display:block;
+	margin: 0 auto 0; 
+	padding:0 50px 50px 0;
+}
+/*面芯样式表end*/
