@@ -1,0 +1,227 @@
+/*@ 首页样式表*/
+/*====================公共样式======================*/
+*{ margin: 0; padding: 0; }
+img { border: 0 none; vertical-align: center; }
+ul, li { list-style-type: none;}
+h1, h2, h3, h4, h5, h6 { font-size: 14px; }
+body, input, select, button, textarea { font-size: 12px; font-family:"微软雅黑";  }	/*设置默认字体*/
+button { cursor: pointer; }
+i, em, cite { font-style: normal; }
+aside section,.body{display:block; width:1000px; margin:0 auto;}
+a, a:link { color: #000; text-decoration: none; }/*设置a标签基本样式与伪类选择器设置*/
+a:visited {}
+a:active, a:hover { text-decoration: none; color:#d00000; }
+a:focus { outline: none; } 
+.orange { color:#F26E01;}
+
+.clear:after {
+	content: '';
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear:both;
+}
+body{
+	background: no-repeat 50% 0 fixed url(../images/index/big-bg.png);
+}
+/*主体结构样式表start*/
+.header{
+	width:1000px;
+	height:200px;
+	margin:0 auto 0;
+	/*border:1px solid black ;*/
+
+}
+main{
+	width:1024px;
+	/*height:1800px;*/
+	display:block;
+	margin:0 auto 0 ;
+	background:repeat-y url(../images/index/mian-bg.png);
+}
+.footer{
+	width:100%;
+	height:650px;
+	/*border:1px solid black;*/
+	background:no-repeat  url(../images/index/footer.png)bottom center;
+
+}
+/*主体结构样式end*/
+/*头部样式start*/
+.header .header-logo a {
+	width:404px;
+	height:168px;
+	display:block;
+	/*border:1px solid black;*/
+	background: no-repeat url(../images/index/logo.png) center;
+
+}
+.header .header-sreach{
+	width:250px;
+	height:26px;
+	line-height:26px;
+	display:block;
+	border:1px solid #8bb6ad;
+	margin:-60px 0 0 0 ;
+	float:right;
+	font-size:14px;
+	color:white;
+	opacity:0.7;
+	background:rgba(58,58,58,.3) no-repeat url(../images/index/search.png) right;
+	
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: white;
+}
+.header .header-nav{
+	width:1024px;
+	height:54px;
+	margin: 0 auto 0;
+}
+.header .header-nav img{
+	width:1024px;
+	height:54px;
+	margin: 0 0 0 -10px;
+}
+/*头部样式*end/
+
+/*尾部样式表start*/
+.footer .ferg-bg{
+	width:100%;
+	height:235px;
+	/*border:1px solid white;*/
+	z-index:5;
+	background:no-repeat url(../images/index/Freg-bg.png)bottom center;
+}
+
+.footer .ferg-bg img{
+	display:block;
+	margin: 0px auto;
+	padding:158px 0 0 0; 
+}
+.footer .f-header{
+	width:1024px;
+	height:50px;
+	margin: 0 auto;
+	line-height:50px;
+	/*border:1px solid white;*/
+}
+.footer .f-header{
+	color:white;
+
+}
+.footer .f-header li a{
+	color:white;
+
+}
+.footer .f-header .f-h-left li{
+	padding: 0  35px;
+	float:left;
+}
+.footer .f-header .f-h-left li:first-of-type{
+	padding: 0 30px;
+	background:no-repeat url(../images/index/f-h-l-1.png)left;
+}
+.footer .f-header .f-h-left li:nth-of-type(2 ){
+	padding: 0 30px ;
+	background:no-repeat url(../images/index/f-h-l-2.png)left;
+}
+.footer .f-header .f-h-left li:last-of-type{
+	padding: 0 30px;
+	background:no-repeat url(../images/index/f-h-l-3.png)left;
+}
+.footer .f-header .f-h-right li{
+	padding:0 0px 0 0px;
+	float:right;
+}
+
+.footer .f-header .f-h-right li:last-of-type{
+	padding:0 0 0 10px;
+
+}
+.footer .f-header .f-h-right li:nth-of-type(2){
+	width:60px;
+	height:50px;
+	padding:0 91px 0 12px;
+	background:no-repeat url(../images/index/f-h-r-1.png) right
+}
+.footer .f-main{
+	width:1050px;
+	height:160px;
+	/*border:1px solid white;*/
+	margin:0 auto;
+}
+.footer .f-main .blizzard{
+	float:left;
+	margin:-40px 0 0 0;
+}
+.footer .f-main .wanyi{
+	margin:79px 0 0 0;
+}
+.footer .f-main .f-m-right .f-m-r-top  {
+	width:500px;
+	height:30px;
+	float:right;
+	padding:0 0 0 30px;
+	margin:-55px 168px 0 0 ;
+}
+.footer .f-main .f-m-right .f-m-r-top li a{
+	height:20px;
+	display:block;
+	line-height:30px;
+	float:left;
+	color:white;
+	margin:0 auto 0;
+	padding: 0 0 0 20px;
+	
+}
+.footer .f-main .f-m-right .f-m-bottom{
+	width:650px;
+	height:100px;
+	float:right;
+	line-height:30px;
+	font-size:10px;
+	/*border:1px solid white;*/
+	margin: -35px 0 0 0 ;
+}
+.footer .f-main .f-m-right .f-m-bottom li{
+	color:#db6800;
+	opacity:0.5;
+
+}
+.footer .f-footer{
+	width:400px;
+	height:50px;
+/*	border:1px solid white;*/
+	margin:-70px  0 0 630px;
+
+}
+.footer .f-footer  img{
+	display:block;
+	float:left;
+	padding:0 5px 0 0;
+	margin:10px 0 0 0
+}
+
+.footer .f-footer .f-f-bottom .tips{
+	color:#db6800;
+	line-height:50px;
+	margin: 0 -14px 0 0;
+	float:right;
+	opacity:0.5;
+}
+.footer .f-tips{
+	width:1024px;
+	height:50px;
+	margin:20px auto;
+	/*border:1px solid white;*/
+}
+.footer  .f-tips li{
+	display:block;
+	float:left;
+	line-height:30px;
+	margin: 10px 0 0 150px;
+	color:#db6800;
+	opacity:0.5 ;
+}
+/*尾部样式表end*/

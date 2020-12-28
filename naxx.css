@@ -1,0 +1,103 @@
+*{ margin: 0; padding: 0; }
+img { border: 0 none; vertical-align: center; }
+ul, li { list-style-type: none;}
+h1, h2, h3, h4, h5, h6 { font-size: 14px; }
+body, input, select, button, textarea { font-size: 12px; font-family:"微软雅黑";  }	/*设置默认字体*/
+button { cursor: pointer; }
+i, em, cite { font-style: normal; }
+aside section,.body{display:block; width:1000px; margin:0 auto;}
+a, a:link { color: #000; text-decoration: none; }/*设置a标签基本样式与伪类选择器设置*/
+a:visited {}
+a:active, a:hover { text-decoration: none; color:#d00000; }
+a:focus { outline: none; } 
+.orange { color:#F26E01;}
+
+.clear:after {
+	content: '';
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear:both;
+}
+.header{
+	width:100%;
+	height:900px;
+	border:1px solid black;
+	background: no-repeat url(../images/naxx/pngbg-01.png)center top;
+}
+.footer{
+	width:100%;
+	height:900px;
+	position:relative;
+	border:1px solid black;
+	background: no-repeat url(../images/naxx/page-bg.jpg)center top;
+}
+.header .tips{
+	width:500px;
+	height:300px;
+	margin:513px auto;
+	/*border:1px solid white;*/
+}
+.header .tips h1,.header .tips h2{
+	font-size:30px;
+	text-align:center;
+}
+.header .tips p{
+	text-align:center;
+	opacity:0.7;
+}
+.footer .tips-2{
+	width:500px;
+	height:300px;
+	margin:210px auto;
+	/*border:1px solid white;*/
+
+}
+.footer .tips-2 h1{
+	font-size:36px;
+	text-align:center;
+}
+.footer .tips-2 h2{
+	font-size:20px;
+	text-align:center;
+}
+.footer .tips-2  p{
+	text-align:center;
+	opacity:0.7;
+}
+.footer  .spider img {
+	width:450px;
+	display:block;
+	margin:-360px 15px 0 -190px;
+}
+.footer .naxx img{
+	width:350px;
+	position:absolute;
+	top:0;
+	left:15px;
+	z-index:10;
+}
+.footer .btn{
+	width:373px;
+	height:307px;
+	position:absolute;
+	top:40%;
+	left:17%;
+	/*border:1px solid black;*/
+	background:no-repeat url(../images/naxx/btn-1.png);
+}
+.footer .btn:hover{
+	background:no-repeat url(../images/naxx/btn-2.png);
+}
+.footer .btn-2{
+	width:373px;
+	height:307px;
+	position:absolute;
+	top:55%;
+	left:55%;
+	/*border:1px solid black;*/
+	background:no-repeat url(../images/naxx/btn-3.png);
+}
+.footer .btn-2:hover{
+	background:no-repeat url(../images/naxx/btn-4.png);
+}
